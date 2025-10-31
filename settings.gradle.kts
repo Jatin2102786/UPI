@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "UPI"
 include(":app")
+include(":WagonWheel")

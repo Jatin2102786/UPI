@@ -15,6 +15,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.o7solutions.upi.BroadcastReceiver.BroadcastReceiverActivity
 import com.o7solutions.upi.Sensor.SensorActivity
+import com.o7solutions.wagonwheel.WagonWheel
 
 class MainActivity : AppCompatActivity() {
 
@@ -42,6 +43,7 @@ class MainActivity : AppCompatActivity() {
             finish()
 
         }
+
 
 
         click.setOnClickListener {

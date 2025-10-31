@@ -7,4 +7,11 @@
     android:layout_height="match_parent"
     tools:context=".BroadcastReceiver.BroadcastReceiverActivity">
 
+
+
+    <com.o7solutions.wagonwheel.WagonWheel
+        android:id="@+id/wheelView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

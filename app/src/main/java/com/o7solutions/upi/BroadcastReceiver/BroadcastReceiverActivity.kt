@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.o7solutions.upi.R
+import com.o7solutions.wagonwheel.WagonWheel
 
 class BroadcastReceiverActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +19,11 @@ class BroadcastReceiverActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+
+        val wheelView = findViewById<WagonWheel>(R.id.wheelView)
+        wheelView.setItems(listOf("One", "Two", "Three", "Four"))
+
     }
 
 
